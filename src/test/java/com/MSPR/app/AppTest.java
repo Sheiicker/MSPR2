@@ -1,7 +1,7 @@
 package com.MSPR.app;
 
 import static org.junit.Assert.assertTrue;
-
+//import com.MSPR.app.MyClass;
 import org.junit.Test;
 
 /**
@@ -16,5 +16,14 @@ public class AppTest
     public void shouldAnswerWithTrue()
     {
         assertTrue( true );
+    }
+
+    @Test
+    public void shouldFail()
+    {
+        MyClass test = new MyClass();
+
+        assertTrue(test.shouldReturnTrue());
+        
     }
 }
