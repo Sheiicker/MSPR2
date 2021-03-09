@@ -4,6 +4,6 @@ public class MyClass
 {
     public static boolean shouldReturnTrue()
     {
-        return false;
+        return true;
     }
 }
